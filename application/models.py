@@ -12,3 +12,11 @@ class Profession(models.Model):
     class Meta:
         verbose_name = 'Профессия'
         verbose_name_plural = 'Профессии'
+
+
+class Table(models.Model):
+    title = models.CharField(max_length=150)
+    graphic = models.ImageField(upload_to='images/')
+
+    def __str__(self):
+        return self.title

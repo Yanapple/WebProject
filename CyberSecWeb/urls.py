@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from django.conf import settings
+from django.conf.urls.static import static
 from application.views import index_page, main_page, geography_page, availability_page, skills_page, vacation_page
 
 
@@ -28,3 +30,6 @@ urlpatterns = [
     path('vacation', vacation_page, name='vacation'),
     path('', index_page), #путь для главной страницы
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

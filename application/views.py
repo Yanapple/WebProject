@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from application.models import Profession
+from application.models import Profession, Table
 
 
 # Create your views here.
@@ -13,11 +13,13 @@ def main_page(request):
 
 
 def geography_page(request):
-    return render(request, 'geography.html')
+    data = Table.objects.all()[2:]
+    return render(request, 'geography.html', {'data': data })
 
 
 def availability_page(request):
-    return render(request, 'availability.html')
+    data = Table.objects.all()[:2]
+    return render(request, 'availability.html', {'data': data })
 
 
 def skills_page(request):
