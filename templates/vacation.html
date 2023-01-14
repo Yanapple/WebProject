@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CyberSecurityWeb</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/magnific-popup.css" %}">
+    <link rel="stylesheet" href="{% static "css/templatemo-style.css" %}">
+
+</head>
+    <header>
+         <p class="logo"><img src="{% static "img/logo.png" %}" alt="Logo"> </p>
+    </header>
+    <body>        
+               <div class="container">
+            <div class="row">
+                <div class="tm-left-right-container">
+
+                    <div class="tm-blue-bg tm-left-column">
+                        <div class="tm-logo-div text-xs-center">
+                            <p class="tm-site-name">Меню</p>
+                        </div>
+                        <nav class="tm-main-nav">
+                            <ul class="tm-main-nav-ul">
+                                <li class="tm-nav-item">
+                                    <a href="#" class="tm-nav-item-link">На главную</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#" class="tm-nav-item-link">Востребовательность</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#" class="tm-nav-item-link">География</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#" class="tm-nav-item-link">Навыки</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#" class="tm-nav-item-link">Последние вакансии</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="tm-right-column">
+                        <figure>
+                            <img src="{% static "img/main_picture.jpg" %}" alt="Header image" class="img-fluid">
+                        </figure>
+
+                        <div class="tm-content-div">
+
+                            <section class="tm-section">
+
+                                    <h1 class="tm-blue-text tm-welcome-title tm-margin-b-45">Специалист по информационной безопасности</h1>
+
+                            </section>
+
+
+                            <section class="tm-section">
+                                <div class="row">
+                                    <div class=" push-lg-4 push-md-5">
+
+                                            <h2 class="tm-blue-text tm-section-title tm-margin-b-45" align="center">Последние вакансии</h2>
+
+                                            <p>
+                                                В перспективе, тут будут данные с сайта hh.ru
+                                            </p>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <footer>
+                                <p class="my-sign">Шишкина Яна, ИРИТ-210934 </p>
+                            </footer>
+
+                        </div>  
+                        
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+                
+        
+        <script src="{% static "js/jquery-1.11.3.min.js" %}"></script>
+        <script src="{% static "js/jquery.magnific-popup.min.js" %}"></script>
+        <script src="{% static "js/jquery.singlePageNav.min.js" %}"></script>
+        <script>     
+       
+            $(document).ready(function(){
+
+                
+                $('.tm-main-nav').singlePageNav({
+                    'currentClass' : "active",
+                    offset : 20
+                });
+
+                $('.tm-current-year').text(new Date().getFullYear());                
+            });
+        </script>             
+</body>
+</html>
