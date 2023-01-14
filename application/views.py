@@ -13,12 +13,12 @@ def main_page(request):
 
 
 def geography_page(request):
-    data = Table.objects.all()[2:]
+    data = Table.objects.all()[3:]
     return render(request, 'geography.html', {'data': data })
 
 
 def availability_page(request):
-    data = Table.objects.all()[:2]
+    data = Table.objects.all()[:3]
     return render(request, 'availability.html', {'data': data })
 
 

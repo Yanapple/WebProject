@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f04c55-e047-45de-9345-0ce04c7f4257" name="Changes" comment="My project">
-      <change beforePath="$PROJECT_DIR$/CyberSecWeb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberSecWeb/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CyberSecWeb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberSecWeb/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/availability.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/availability.html" afterDir="false" />
@@ -85,7 +82,8 @@
       <workItem from="1673607116980" duration="1478000" />
       <workItem from="1673608687173" duration="8905000" />
       <workItem from="1673680996691" duration="23242000" />
-      <workItem from="1673783033904" duration="23523000" />
+      <workItem from="1673783033904" duration="24557000" />
+      <workItem from="1673720437708" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1673797936835</created>
@@ -108,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673819063998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="My project">
+      <created>1673718578928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673718578928</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
