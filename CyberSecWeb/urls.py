@@ -16,12 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from application.views import index_page, main_page
+from application.views import index_page, main_page, geography_page, availability_page, skills_page, vacation_page
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('main', main_page, name='main_page'),
+    path('geography', geography_page, name='geography'),
+    path('availability', availability_page, name='availability'),
+    path('skills', skills_page, name='skills'),
+    path('vacation', vacation_page, name='vacation'),
     path('', index_page), #путь для главной страницы
-    path('main/', main_page),
-
 ]

@@ -29,19 +29,19 @@
                         <nav class="tm-main-nav">
                             <ul class="tm-main-nav-ul">
                                 <li class="tm-nav-item">
-                                    <a href="#" class="tm-nav-item-link">На главную</a>
+                                    <a href="{% url 'main_page' %}" class="tm-nav-item-link" onclick="open('{% url 'main_page' %}')">На главную</a>
                                 </li>
                                 <li class="tm-nav-item">
-                                    <a href="#" class="tm-nav-item-link">Востребовательность</a>
+                                    <a href="{% url 'availability' %}" class="tm-nav-item-link" onclick="open('{% url 'availability' %}')">Востребовательность</a>
                                 </li>
                                 <li class="tm-nav-item">
-                                    <a href="#" class="tm-nav-item-link">География</a>
+                                    <a href="{% url 'geography' %}" class="tm-nav-item-link" onclick="open('{% url 'geography' %}')">География</a>
                                 </li>
                                 <li class="tm-nav-item">
-                                    <a href="#" class="tm-nav-item-link">Навыки</a>
+                                    <a href="{% url 'skills' %}" class="tm-nav-item-link" onclick="open('{% url 'skills' %}')">Навыки</a>
                                 </li>
                                 <li class="tm-nav-item">
-                                    <a href="#" class="tm-nav-item-link">Последние вакансии</a>
+                                    <a href="{% url 'vacation' %}" class="tm-nav-item-link" onclick="open('{% url 'vacation' %}')">Последние вакансии</a>
                                 </li>
                             </ul>
                         </nav>                                         
