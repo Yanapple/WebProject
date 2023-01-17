@@ -69,8 +69,31 @@
                                             <h2 class="tm-blue-text tm-section-title tm-margin-b-45" align="center">Последние вакансии</h2>
 
                                             <p>
-                                                В перспективе, тут будут данные с сайта hh.ru
+                                                Тут будут свежие данные с сайта hh.ru о вакансиях по профессии!
+                                                <br>
                                             </p>
+
+                                        {% block body %}
+                                            {% for obj in data %}
+                                                <div class="vacancies-block">
+                                                <p class="vacancies-title" align="center"><b>{{ obj.name }}</b></p>
+                                                <p class="vacancy-text" align="center">{{ obj.description }}</p>
+                                                    <p class="vacancies-title" align="center"><b>Необходимые навыки:</b></p>
+                                                    <p class="vacancy-text" align="center">{{ obj.skills }}</p>
+                                                    <p class="vacancies-title" align="center"><b>Зарплата:</b></p>
+                                                    <p class="vacancy-text" align="center">{{ obj.price }}</p>
+                                                    <p class="vacancies-title" align="center"><b>Описание:</b></p>
+                                                    <div>
+                                                        <p class="vacancy-text" align="center">{{ obj.company }}</p>
+                                                        <p class="vacancy-text" align="center"> {{ obj.region }}</p>
+                                                        <p class="vacancy-text" align="center">{{ obj.date_published }}
+                                                        <br>
+                                                        <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            {% endfor %}
+                                        {% endblock body %}
 
                                     </div>
 
@@ -86,24 +109,6 @@
                     </div> 
                 </div>
             </div> 
-        </div> 
-                
-        
-        <script src="{% static "js/jquery-1.11.3.min.js" %}"></script>
-        <script src="{% static "js/jquery.magnific-popup.min.js" %}"></script>
-        <script src="{% static "js/jquery.singlePageNav.min.js" %}"></script>
-        <script>     
-       
-            $(document).ready(function(){
-
-                
-                $('.tm-main-nav').singlePageNav({
-                    'currentClass' : "active",
-                    offset : 20
-                });
-
-                $('.tm-current-year').text(new Date().getFullYear());                
-            });
-        </script>             
+        </div>
 </body>
 </html>

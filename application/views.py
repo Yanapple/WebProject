@@ -27,4 +27,6 @@ def skills_page(request):
 
 
 def vacation_page(request):
-    return render(request, 'vacation.html')
+    from .data_from_hh import Parser
+    data = Parser().parse_vacancies()
+    return render(request, 'vacation.html', context={'data': data })
