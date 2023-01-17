@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f04c55-e047-45de-9345-0ce04c7f4257" name="Changes" comment="My project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/js/jquery.singlePageNav.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/availability.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/availability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/geography.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/geography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vacation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vacation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analitics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analitics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +109,7 @@
       <workItem from="1673720437708" duration="4057000" />
       <workItem from="1673956254893" duration="1291000" />
       <workItem from="1673969097372" duration="5030000" />
+      <workItem from="1673977202138" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1673797936835</created>
@@ -157,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673721131158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="My project">
+      <created>1673977275740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673977275740</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
